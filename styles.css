@@ -1,29 +1,117 @@
-body {
-    font-family: Arial, sans-serif;
+b* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-header {
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.header {
+    text-align: center;
     background-color: #0073e6;
     color: white;
-    text-align: center;
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
-main {
-    padding: 2rem;
-    text-align: center;
+.header .logo {
+    width: 150px;
 }
 
-button {
-    padding: 0.5rem 1rem;
-    background-color: #0073e6;
+.header h1 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.header p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.get-started-btn {
+    background-color: #00b74a;
     color: white;
+    padding: 0.8rem 1.5rem;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.get-started-btn:hover {
+    background-color: #009933;
+}
+
+.app-links img {
+    width: 120px;
+    margin: 0.5rem;
+}
+
+.statistics {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: #e0f7fa;
+}
+
+.stat-item {
+    margin: 0 1rem;
+    text-align: center;
+    color: #0073e6;
+}
+
+.stat-item p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.popular-exams {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.popular-exams h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.exam-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.exam-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #005bb5;
-}￼Enter
+.exam-btn:hover {
+    background-color: #0073e6;
+    color: white;
+}
+
+.promotion {
+    background-color: #fce4ec;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #d81b60;
+}
+
+.promotion h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.promotion p {
+    font-size: 1rem;
+}
+
